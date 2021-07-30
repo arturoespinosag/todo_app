@@ -11,16 +11,15 @@ It will also change automatically to red if the deadline is less than 7 days.
 
 ## Dismiss to delete
 
+Swipe to left or right to delete the task, as simple as that.
 
-## Getting Started
+![image](https://user-images.githubusercontent.com/57274392/127709489-f1d61d51-add3-40e7-94ce-96fab99cd9ba.png)
 
-This project is a starting point for a Flutter application.
+## Add a new task
 
-A few resources to get you started if this is your first Flutter project:
+Add a new task by pressing the plus (+) button, you will be redirected to a page where you can add a title, description and a deadline to the task.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+![image](https://user-images.githubusercontent.com/57274392/127709730-8c1ba176-4fcb-48b5-b3c7-20796dcb9b4c.png)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
