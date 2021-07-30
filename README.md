@@ -9,6 +9,8 @@ It will also change automatically to red if the deadline is less than 7 days.
 
 ![image](https://user-images.githubusercontent.com/57274392/127708355-e631b2c4-ffe5-4670-b418-fd69285882e8.png)
 
+## Dismiss to delete
+
 
 ## Getting Started
 
