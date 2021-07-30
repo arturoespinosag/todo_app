@@ -70,6 +70,15 @@ class _TaskViewState extends State<TaskView> {
                   itemBuilder: (context, index) => Dismissible(
                     key: UniqueKey(),
                     background: Container(
+                      padding: EdgeInsets.only(left: 10),
+                      child: Text(
+                        'Delete',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 25,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
                       color: Colors.teal,
                     ),
                     onDismissed: (direction) {
