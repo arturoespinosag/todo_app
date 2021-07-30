@@ -1,6 +1,6 @@
-# todo_app
+# To-do App
 
-A new Flutter project.
+A simple To do app, you can set a deadline for the task to be done, title of the task, description, and set as done.
 
 ## Getting Started
 
