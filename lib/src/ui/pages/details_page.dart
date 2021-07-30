@@ -12,6 +12,7 @@ class DetailsPage extends StatefulWidget {
 }
 
 class _DetailsPageState extends State<DetailsPage> {
+  bool isEnabled = true;
   final _formKey = GlobalKey<FormState>();
   Task _selectedTask = Task(
     id: 0,
@@ -37,8 +38,10 @@ class _DetailsPageState extends State<DetailsPage> {
       print(_selectedTask.id);
       if (_selectedTask.id == 0) {
         controller.addTask(_selectedTask);
+        Navigator.pop(context);
       } else {
         controller.updateTask(_selectedTask);
+        Navigator.pop(context);
       }
     }
   }
@@ -84,12 +87,13 @@ class _DetailsPageState extends State<DetailsPage> {
                       },
                     ),
                     ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                          primary: isEnabled ? Colors.blue : Colors.grey),
                       onPressed: () {
                         _submit(context);
                       },
                       child: Text(
                         'Save',
-                        style: TextStyle(color: Colors.black),
                       ),
                     ),
                   ],
